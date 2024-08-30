@@ -1,15 +1,13 @@
-#newchanges v2
+#appone
 
 from flask import Flask
 
-app = Flask(__name__)
+appone = Flask(__name__)
 
-@app.route('/')
+@appone.route('/')
 def home():
     return 'It"s Big Cat!'
 
-@app.route('/about')
+@appone.route('/about')
 def about():
     return 'About'
-
-#pushthis
