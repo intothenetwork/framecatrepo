@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/bigcatindex" }
+    { "source": "/(.*)", "destination": "/api/catindex" }
   ]
 }
