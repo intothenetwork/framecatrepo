@@ -1,11 +1,11 @@
 from flask import Flask
 
-appone = Flask(__name__)
+app = Flask(__name__)
 
-@appone.route('/')
+@app.route('/')
 def home():
     return 'It"s Big Cat!'
 
-@appone.route('/about')
+@app.route('/about')
 def about():
     return 'About'
