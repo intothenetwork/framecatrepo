@@ -2,13 +2,13 @@
 
 from flask import Flask
 
-app1 = Flask(__name__)
+app = Flask(__name__)
 
-@app1.route('/')
+@app.route('/')
 def home():
     return 'It"s Big Cat!'
 
-@app1.route('/about')
+@app.route('/about')
 def about():
     return 'About'
 
