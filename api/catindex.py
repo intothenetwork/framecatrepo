@@ -1,5 +1,3 @@
-#appone
-
 from flask import Flask
 
 appone = Flask(__name__)
