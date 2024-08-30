@@ -1,11 +1,13 @@
 from flask import Flask
 
-app = Flask(__name__)
+app1 = Flask(__name__)
 
-@app.route('/')
+@app1.route('/')
 def home():
     return 'Hello, World!'
 
-@app.route('/about')
+@app1.route('/about')
 def about():
     return 'About'
+
+#pushthis
